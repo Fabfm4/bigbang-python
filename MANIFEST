@@ -2,4 +2,4 @@
 setup.cfg
 setup.py
 bigbang/__init__.py
-bin/bigbang-py
+bigbang/bin/bigbang-py.py

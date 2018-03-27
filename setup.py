@@ -10,9 +10,9 @@ setup(
     url='https://github.com/Fabfm4/bigbang-python',
     download_url='https://github.com/Fabfm4/bigbang-python/archive/{0}.tar.gz'.format(version),
     keywords=['python', 'django', 'docker'],
-    scripts=['bin/bigbang-py'],
+    scripts=['bigbang/bin/bigbang-py.py'],
     entry_points={'console_scripts': [
-        'bigbang-py = bigbang.core.management:execute_from_command_line',
+        'bigbang-py=bigbang.commands:main',
     ]},
     classifiers=[],
 )
