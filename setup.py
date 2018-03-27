@@ -14,5 +14,9 @@ setup(
     install_requires=[
         'markdown',
     ],
+    entry_points={
+        'console_scripts': ['bigbang=bigbang.command_line:main'],
+    },
+    include_package_data=True,
     zip_safe=False,
 )
