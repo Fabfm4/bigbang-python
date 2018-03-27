@@ -15,7 +15,7 @@ setup(
         'markdown',
     ],
     entry_points={
-        'console_scripts': ['bigbang=bigbang.command_line:main'],
+        'console_scripts': ['bigbang=bigbang.commands:main'],
     },
     include_package_data=True,
     zip_safe=False,
