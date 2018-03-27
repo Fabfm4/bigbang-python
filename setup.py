@@ -11,5 +11,8 @@ setup(
     url='https://github.com/Fabfm4/bigbang-python',
     license='MIT',
     packages=["bigbang"],
+    install_requires=[
+        'markdown',
+    ],
     zip_safe=False,
 )
