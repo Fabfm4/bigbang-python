@@ -1,0 +1,7 @@
+*.swp
+*.pyc
+dist/
+.idea/
+bigbang.egg-info/
+build/
+$.DS_Store

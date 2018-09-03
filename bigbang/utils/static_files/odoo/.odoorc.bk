@@ -1,0 +1,10 @@
+[options]
+addons_path = {0}
+admin_passwd = {0}
+db_host = {0}
+db_maxconn = 64
+db_name = {0}
+db_password = {0}
+db_port = {0}
+db_user = {0}
+db_filter = {0}
